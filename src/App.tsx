@@ -1,9 +1,17 @@
-import React from 'react'
+import Footer from "./components/Footer"
+import Main from "./components/Main"
+import Nav from "./components/Nav"
 
-const App = () => {
+const App= ()=>{
+  const welcome='welcome to my react app'
+
   return (
-    <div>App</div>
+    <>
+      <Nav  />
+      <Main/>
+      <Footer/>
+    </>
+
   )
 }
-
 export default App
